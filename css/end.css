@@ -1,0 +1,41 @@
+
+body {
+    background-image: url(../images/end.background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'M PLUS Rounded 1c';
+    background-color: rgb(240, 231, 240);
+
+}
+
+
+.yamauchi  img{
+margin-left: 200px;
+
+}
+
+.yamauchi_talk_img {
+    bottom: 0%;
+    left: 15%;
+    width: 100%;
+}
+
+.yamauchi_group_end {
+margin-top: 405px;
+margin-left: 300px;
+}
+
+.yamauchi_name_end {
+    font-size: 30px;
+}
+
+#yamauchi_talk_end {
+    font-size: 25px;
+  padding-top: 20px;
+}
+
+.button_top_end {
+    display: flex;
+    margin: 20px 0px 0px 20px;
+
+}

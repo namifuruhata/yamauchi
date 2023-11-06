@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福岡DEV14期の山内さん</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/end.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/favicon.ico" id="favicon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=M+PLUS+Rounded+1c:wght@100;300;400;700;800&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="yamauchi">
+        <img id="default_image" src="images/end.png" alt="山内さん" width="100%">
+    </div>
+    <div class="yamauchi_talk_img">
+        <img src="images/yamauchi.talk.png" alt="山内さんのトーク画面" width="70%">
+    </div>
+
+    <div class="menu_img">
+        <img src="images/title.png" alt="ゲームタイトル">
+    </div>
+
+    <div class="main">
+        <div class="main_group">
+<audio id="endSound" src="end.mp3"></audio>
+
+
+          
+
+            <!--自分-->
+          <!--  <div class="you_group">
+                <div class="talk_group">
+                    <button id="talk" onclick="playSound()">話しかける</button>
+                    <div id="responses" style="display:none;">
+                        <button id="response1" onclick="playSound()"></button>
+                        <button id="response2" onclick="playSound()"></button>
+                        <button id="response3" onclick="playSound()"></button>
+                    </div>
+                </div>-->
+
+
+                <div class="button_top_end">
+                    <div class="title_back">
+                        <a href="top.html">
+                            <button class="top" onclick="playSound()">タイトルへ戻る</button>
+                        </a>
+                    </div>
+                    <div class="mp3">
+                        <audio id="myAudio" loop src="bgm.mp3" type="audio/mpeg">
+                            お使いのブラウザはaudioタグをサポートしていません。
+                        </audio>
+                        <button id="playPauseBtn" onclick="togglePlayPause()">BGM再生</button>
+                    </div>                   
+               </div>
+            <!--山内さん-->
+            <div class="yamauchi_group_end">
+                <p class="yamauchi_name_end">山内さん</p>
+                <p id="yamauchi_talk_end">お疲れ様！よく頑張ったね！ご褒美に100万円あげるよ！！</p>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

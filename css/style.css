@@ -1,0 +1,271 @@
+
+body {
+    background-image: url(../images/background-image.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    font-family: 'M PLUS Rounded 1c';
+    background-color: rgb(240, 231, 240);
+
+}
+
+/*トップ*/
+.title_img img{
+position: absolute;
+    z-index: -3;
+    top: 0;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setumei_group {
+width: 25%;
+display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: fixed;
+    right: 2.5%;
+    top: 10%;
+background-color: #ffffff;
+}
+
+.setumei_group p {
+ padding: 0px 50px 0px 50px;
+ font-size: 18px;
+line-height: 30px
+}
+
+.setumei_title {
+font-size: 300px;
+font-weight: 500;
+color: #ffffff;
+background-color: rgb(115, 190, 224);
+
+text-align: center;
+margin-top: 0%;
+}
+
+.top_group {
+    display: flex;
+        justify-content: center;
+        width: 100%;
+
+}
+
+.top_button_group {
+    margin: 600px 500px 0px 0px;
+position: absolute;
+    position: fixed;
+    z-index: 0;
+
+
+}
+
+/*山内さん*/
+
+.yamauchi_group {
+width: 100%;
+
+}
+
+.yamauchi {
+position: absolute;
+position: fixed;
+z-index: -2;
+width: 70%;
+}
+
+.yamauchi_talk_img {
+position: absolute;
+    position: fixed;
+    z-index: -1;
+
+}
+
+.yamauchi_name {
+
+margin: 500px 0px 0px 100px;
+font-size: 30px;
+width: 100%;
+}
+
+#yamauchi_talk {
+margin: 50px 0px 0px 100px;
+    font-size: 25px;
+width: 80%;
+}
+
+
+
+.main {
+    position: absolute;
+        z-index: 0;
+}
+
+
+
+.menu_img {
+    position: absolute;
+    position: fixed;
+    z-index: -2;
+    right: 0;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+
+.menu_img  img {
+    width: 95%;
+
+}
+
+/*ゲージ*/
+
+.gauge-title {
+    font-size: 25px;
+    width: 28%; 
+        position: fixed;
+        right: 0;
+        top: 80%;
+}
+
+.gauge-container {
+    width: 30%;
+    height: 30px;
+    background-color: #ccc;
+
+    position: fixed;
+    right: 0;
+    top: 90%;
+}
+
+.gauge-fill {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(224, 134, 155);
+    position: absolute;
+}
+
+
+/*自分*/
+
+.you_group {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: fixed;
+    right: 4%;
+    top: 25%;
+}
+
+/*ボタン*/
+
+#response1,
+#response2,
+#response3 {
+    background-color: rgb(224, 134, 155);
+    width: 300px;
+        font-size: 20px;
+        border-color: #555;
+        color: #ffffff;
+        border-radius: 15px;
+        margin-top: 10px;
+}
+
+#response1:hover,
+#response2:hover,
+#response3:hover {
+background-color: rgba(224, 134, 155, 0.724);
+    border-color: #555555db;
+    color: rgb(255, 255, 255);
+}
+
+
+
+#responses {
+    margin: 100px 120px 50px 0px;
+    position: absolute;
+    position: fixed;
+    z-index: -2;
+    right: 0;
+    width: 17%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#talk {
+    margin: 0px 0px 30px 0px;
+    background-color: rgb(115, 190, 224);
+    padding: 20px 105px 20px 105px;
+    font-size: 20px;
+    border-color: #555;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#talk:hover {
+    background-color: rgba(115, 189, 224, 0.71);
+    border-color: #555555db;
+    color: rgb(255, 255, 255);
+}
+
+#start  {
+    background-color: rgb(224, 134, 155);
+    padding: 20px 70px 20px 70px;
+    font-size: 20px;
+    border-color: #555;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#start:hover {
+    background-color: rgba(224, 134, 155, 0.724);
+    border-color: #555555db;
+    color: rgb(255, 255, 255);
+}
+
+
+.button_top_mp3 {
+    display: flex;
+    justify-content: center;
+}
+
+#playPauseBtn {
+    background-color: #696969;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-color: #555;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#playPauseBtn:hover {
+background-color: #696969ac;
+border-color: #555555db;
+color: rgb(255, 255, 255);
+}
+
+
+.top {
+    background-color: rgb(234, 197, 65);
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-color: #555;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.top:hover {
+    background-color:rgba(234, 197, 65, 0.598);
+    border-color: #555555db;
+    color: rgb(255, 255, 255);
+}
